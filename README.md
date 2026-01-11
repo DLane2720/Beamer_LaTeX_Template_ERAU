@@ -1,9 +1,11 @@
-# ERAU BEAMER PRESENTATION TEMPLATE - GETTING STARTED
+# ERAU BEAMER PRESENTATION TEMPLATE
+
+## GETTING STARTED
 
 
 This template creates professional 16:9 presentations with ERAU branding.
 
-# COMPILING YOUR PRESENTATION
+## COMPILING YOUR PRESENTATION
 
 To generate a PDF from your presentation:
 
@@ -11,9 +13,9 @@ To generate a PDF from your presentation:
 
 Or use your preferred LaTeX editor (TeXShop, Overleaf, etc.)
 
-# CUSTOMIZING YOUR PRESENTATION
+## CUSTOMIZING YOUR PRESENTATION
 
-## BASIC INFORMATION (lines 10-14 in slide.tex)
+### BASIC INFORMATION (lines 10-14 in slide.tex)
 
    \author{Instructor Name}          <- Your name
    \title{Course Title}               <- Course number/title (shows in footer)
@@ -23,7 +25,7 @@ Or use your preferred LaTeX editor (TeXShop, Overleaf, etc.)
 
    The title appears in the left footer, subtitle in center, page numbers right.
 
-# ADDING SECTIONS
+## ADDING SECTIONS
 
 Sections create automatic table of contents entries:
 
@@ -33,7 +35,7 @@ Sections create automatic table of contents entries:
 
 Each section automatically gets a TOC slide before it begins.
 
-# ADDING SLIDES
+## ADDING SLIDES
 
 Basic slide with title:
 
@@ -67,7 +69,7 @@ Slide with numbered list:
         \end{enumerate}
     \end{frame}
 
-# ADDING SUBSECTIONS (OPTIONAL)
+## ADDING SUBSECTIONS (OPTIONAL)
 
 For more detailed organization:
 
@@ -75,7 +77,7 @@ For more detailed organization:
     \subsection{Subtopic A}
     \subsection{Subtopic B}
 
-# ADDING IMAGES
+## ADDING IMAGES
 
 Place images in the pic/ folder, then:
 
@@ -89,7 +91,7 @@ Place images in the pic/ folder, then:
 
 Adjust width with values like: 0.3, 0.5, 0.8, etc. (fraction of slide width)
 
-# COLORS & BRANDING
+## COLORS & BRANDING
 
 The template uses official ERAU colors:
 - Dark Blue (#003366) - Headers, structural elements
@@ -98,7 +100,7 @@ The template uses official ERAU colors:
 
 To customize colors, edit ERAU.sty (lines 88-93)
 
-# NEED MORE HELP?
+## NEED MORE HELP?
 
 - Beamer documentation: https://ctan.org/pkg/beamer
 - LaTeX basics: https://www.overleaf.com/learn
